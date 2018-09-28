@@ -1,32 +1,35 @@
 *{
 
 	padding: 0;
-	margin:0 auto;
+	margin:0;
 }
 
 #tudo{
-	width: 1024px;
-	
-	
+	width: 100%;
 }
 #topo{
 	height: 240px;
 	width: 100%;	
-	
+
+	}
+#topo_centro{
+	width: 100%;
+	margin-left: 5%;
+	left: 5%;
 }
 #logo{
-	float: left;
-	margin-top: 20px;
-	margin-left: 10px;
+	float:left;
+	margin-top: 30px;
+	margin-left: 38px;
 }
 
 #buscar{
 	margin-top: 140px;
-	margin-right: 5px; 
+	margin-right: 140px; 
 	float:right;
 }
 #buscar input[type="text"]{
-
+	
 	height: 45px;
 	width: 450px;
 	margin-right: -5px;
@@ -36,44 +39,81 @@
 	font-size: 20px;
 	}
 #button{
-
+	float:right;
 	color: white;
 	height: 47px;
 	width: 110px;
 	font-size: 20px;
 	border: none;
 	padding-left: 5px;
-	background-color: #D40000;
+	background-color: #F20000;
 
+}
+#button_baixo{
+	color: white;
+	height: 47px;
+	width:100%;
+	font-size: 20px;
+	border: none;
+	background-color: #F20000;
+	margin:15px 0px 30px 0px;
 }
 #menu{
 	color: white;
 	background-color: #333d5b;
-	height: 40px;
+	height: 48px;
+	width: 100%;
+ display: -webkit-flex; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 #menu ul{
 	list-style: none;
+	margin-left: 2%;
+	left:2%;
+height: 48px;
 }
 #menu ul li{
-	float: left;
-	display: inline;
+	float:left;
+	display: inline-block;
 	margin-top: 12px;
-
+text-align:center;
 	}
 
 #menu ul li a{
 	color:white;
 	text-decoration: none;
-	padding:11px 73px;
+	padding: 11px 100px 19px 80px;
 }
 #menu ul li a:hover{
 	background-color: #23273A;
 }
 #conteudo{
 	width: 100%;
-	height: 800px;
-	
+	min-height:800px;
+	height:auto;
+
 	}
+#conteudo_centro{
+	width: 100%;
+	margin: 0 auto 0 auto;
+	
+}
+
+hr{
+	margin-left: 8%;
+	left:8%;
+	margin-right:5%;
+	right:5%;
+}
+
+#banner{
+	margin-left: 8%;
+	left:8%;
+}
+
 #banner img{
 	margin-top: 15px;
 }
@@ -82,17 +122,17 @@
 	color: #333D5B;
 	text-align: center;
 	margin:20px 0px 5px 0px;
-	
-	
 }
 #anuncio{
-		
 	margin: 0;
 	width: 100%;
 	margin-top: 20px;
-		
+	
 }
 #veiculos{
+	
+	
+	background-color: white;
 	width: 250px;
 	height: 280px;
 	text-align: center;
@@ -116,9 +156,13 @@
 	background-color: #23273A;
 	height: 250px;
 	border-top: 5px solid #333D5B;
-
-	
-}
+	width: 100%;
+	}
 #clear{
 	clear: both;
+}
+#box_rodape{
+	width: 1075px;
+	margin-left: 10%;
+	left:10%;
 }
